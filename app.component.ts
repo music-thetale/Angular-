@@ -16,3 +16,12 @@ export class AppComponent {
     this.configService.setTheme = value;
   }
 }
+
+/*propertybinding section of app.html 
+export class AppComponent {
+form: FormGroup;
+constructor(fb:FormBuilder) {
+this.form = fb.group({
+bob : ['',Validators.required]
+});
+}
