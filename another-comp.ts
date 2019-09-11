@@ -2,7 +2,10 @@ import {Component, Input} from '@angular/core';
 
 @Component({
 selector: 'fb-stars',
-template: ˋ <p> another-comp works!</p>ˋ,
+template: ˋ <div>
+  <i class="fa fa-star"></i>
+  {{value}}
+           </div>ˋ,
 styles: []
 })
 export class StarsComponent{
