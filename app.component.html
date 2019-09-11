@@ -2,3 +2,14 @@
 <h1 [style.color] = "configService.theme"
 <button (click)=setTheme('red')>Click me</button>
 <button (click) = setTheme('green')> Click Me </button>
+
+//property binding
+<form [formGroup] = "form">
+  <input type="text" formControlName" = "bob">
+         <another-comp  [value] = "2"></another-comp>
+          <button [disabled] = "form.invalid">SAVE </button>
+     </form>
+                                             
+                                                                  
+
+                                             
